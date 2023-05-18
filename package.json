@@ -9,7 +9,7 @@
     "serve": "node dist/index.js",
     "start": "npm-run-all prisma:generate serve",
     "dev": "ts-node-dev ./src/index.ts",
-    "start:dev": "npm run all- prisma:generate dev"
+    "start:dev": "npm-run-all prisma:generate dev"
   },
   "keywords": [],
   "author": "",
